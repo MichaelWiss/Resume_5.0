@@ -38,6 +38,10 @@ body {
 .secondary-content { background-color: #bfe3d0; }
 .main-footer       { background-color: #b7c0c7; }
 .tertiary-content  {background-color:  #EDB998; }
+.alpha-content     {background-color:  #BDF56F; }
+.beta-content      {background-color:  #AD82E8; }
+.gamma-content     {background-color:  #CC5476; }
+.delta-content     {background-color:  #40E39F; }
 /* Main Layout
 ================================ */
 
@@ -189,7 +193,7 @@ body {
 	}
 	.primary-content {
 		-webkit-flex: 2;
-		flex: 2;
+		flex: 1;
 		-webkit-order: -1;
 		order: -1;
 	}
