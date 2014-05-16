@@ -43,14 +43,8 @@ body {
 .col {
 	padding: 20px;
 }
-.main-banner{background-image: url(../images/Building.jpg)no-repeat center center fixed;
-	 -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-	width:100%;
+.main-banner{background-image: url(/images/ny.jpg);
 }
-.
 .main-logo a, 
 .main-nav a {
 	display: block;
@@ -145,12 +139,11 @@ body {
   		margin-right: 50px;
 	}
 	.main-banner {
-		
-		background-image: url(../images/Building.jpg);
+		background: #dfe2e4;
+		background-image: url(/images/ny.jpg);
 		text-align: center;
 		padding: 50px 15px;
 		display: block;
-		width:100%;
 	}
 
 	/* Column Layout
