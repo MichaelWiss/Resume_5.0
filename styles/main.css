@@ -6,6 +6,8 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
+
 body {
 	font: normal 1.1em/1.5 sans-serif;
 	color: #222;
@@ -107,6 +109,7 @@ body {
 
 		}
 		.main-banner{background-image: url(../images/ny.jpg);
+			width: 100%; text-align: center;
 	                  
 	                 
         }
@@ -156,8 +159,11 @@ body {
 	.main-banner {
 		
 		background-image: url(../images/ny.jpg);
-
-		text-align: center;
+		 background-attachment:fixed;
+         background-position:center;
+        font-family: 'Raleway', sans-serif;
+		font-size:34px;
+        text-align: center;
 		padding: 100px 15px;
 		height:100%;
 		display: block;
@@ -166,7 +172,9 @@ body {
 
 		
 	}
-	.main-banner img{display:flex;}
+	.main-banner
+	.main-banner img{display:flex;
+	}
 
 	/* Column Layout
 	================================ */
