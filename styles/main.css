@@ -43,7 +43,7 @@ body {
 .col {
 	padding: 20px;
 }
-.main-banner{background-image: url(../images/Building.jpg)no-repeat center center fixed;
+.main-banner{background-image: url(../images/ny.jpg)no-repeat center center fixed;
 	 -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -96,23 +96,32 @@ body {
 ================================ */
 
 @media (min-width: 1px) and (max-width: 768px) {
-		.main-nav li {
+         		.main-nav li {
 			margin-top: 15px;
 		}
 		.main-nav li:first-child {
 			margin-top: 0;
 		}
-		.extra-content,
-		.main-banner {
-			display: none;
+		.extra-content{
+			display:none;
+
 		}
+		.main-banner{background-image: url(../images/ny.jpg);
+	                  
+	                 
+        }
+
+	@media (max-width: 768px) {
+
+	}	
+		
 	}
 
 @media (min-width: 769px) {
 
-	body {
+	/*body {
 		padding-top: 120px;
-	}
+	}*/
 
 	/* Header and Banner Layout
 	================================ */
@@ -146,12 +155,18 @@ body {
 	}
 	.main-banner {
 		
-		background-image: url(../images/Building.jpg);
+		background-image: url(../images/ny.jpg);
+
 		text-align: center;
-		padding: 50px 15px;
+		padding: 100px 15px;
+		height:100%;
 		display: block;
 		width:100%;
+
+
+		
 	}
+	.main-banner img{display:flex;}
 
 	/* Column Layout
 	================================ */
@@ -174,6 +189,8 @@ body {
 		-webkit-order: 1;
 		order: 1;
 	}
+
+
 
 	/* Imagery
 	================================ */
