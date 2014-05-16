@@ -37,7 +37,7 @@ body {
 .primary-content   { background-color: #caebf6; }
 .secondary-content { background-color: #bfe3d0; }
 .main-footer       { background-color: #b7c0c7; }
-
+.tertiary-content  {background-color:  #EDB998; }
 /* Main Layout
 ================================ */
 
@@ -52,7 +52,7 @@ body {
   background-size: cover;
 	width:100%;
 }
-.
+.main-banner p {color:white;}
 .main-logo a, 
 .main-nav a {
 	display: block;
@@ -109,7 +109,7 @@ body {
 
 		}
 		.main-banner{background-image: url(../images/ny.jpg);
-			width: 100%; text-align: center;
+			width: 100%; height:100%; text-align: center;
 	                  
 	                 
         }
@@ -157,7 +157,7 @@ body {
   		margin-right: 50px;
 	}
 	.main-banner {
-		
+		display:box;
 		background-image: url(../images/ny.jpg);
 		
          background-position:center;
