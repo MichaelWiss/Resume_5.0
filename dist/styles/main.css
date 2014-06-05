@@ -13,6 +13,11 @@ body {
   background-color: #ffffff;
 }
 
+p {
+  margin: 3%;
+  padding: 3%;
+}
+
 /* Icon Fonts
 ================================ */
 @font-face {
