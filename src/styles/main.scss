@@ -49,7 +49,7 @@ p {margin:3%;
 ================================ */
 
 
-.main-banner{background-image: url(../images/ny.jpg)no-repeat center center fixed; height:500px;
+.main-banner{background-image: url(../images/ny.jpg)no-repeat center center fixed; height:600px;
 /*	 -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -110,7 +110,10 @@ p {margin:3%;
 	/* Header and Banner Layout
 	================================ */
 
-	
+	body{
+		padding:0;
+		margin:0;
+	}
 	
 	.main-banner {
 		display:box;
@@ -122,6 +125,8 @@ p {margin:3%;
 		/*padding: 100px 15px;*/
 	    display: block;
 		width:100%;
+		padding-top:0px;
+		margin-top:0px;
     }
 	.main-banner
 	.main-banner img{display:flex;

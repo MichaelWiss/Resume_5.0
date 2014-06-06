@@ -77,7 +77,7 @@ p {
 ================================ */
 .main-banner {
   background-image: url(../images/ny.jpg) no-repeat center center fixed;
-  height: 500px;
+  height: 600px;
   /*	 -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -126,6 +126,11 @@ p {
   }*/
   /* Header and Banner Layout
   ================================ */
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
   .main-banner {
     display: box;
     background-image: url(../images/ny.jpg);
@@ -136,6 +141,8 @@ p {
     /*padding: 100px 15px;*/
     display: block;
     width: 100%;
+    padding-top: 0px;
+    margin-top: 0px;
   }
 
   .main-banner
